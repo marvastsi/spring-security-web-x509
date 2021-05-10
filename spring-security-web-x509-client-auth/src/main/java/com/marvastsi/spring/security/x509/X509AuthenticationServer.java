@@ -36,7 +36,7 @@ public class X509AuthenticationServer extends WebSecurityConfigurerAdapter {
             @Override
             public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
                 if (username.equals("Bob")) {
-                    return new User(username, "", AuthorityUtils.commaSeparatedStringToAuthorityList("ROLE_USER"));
+                    return new User(username, "qwert123", AuthorityUtils.commaSeparatedStringToAuthorityList("ROLE_USER"));
                 }
                 throw new UsernameNotFoundException("User not found!");
             }

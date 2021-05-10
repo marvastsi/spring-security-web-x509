@@ -1,4 +1,4 @@
-package com.marvastsi;
+package com.marvastsi.spring.security.x509.unitTests;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package com.marvastsi.spring.security.x509;
+package com.marvastsi.spring.security.x509.application.web.controllers;
 
 import java.security.Principal;
 
